@@ -1,0 +1,22 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.refcatastral/mcp-callejero-barcelona",
+  "title": "Callejero de Barcelona - RefCatastral",
+  "description": "Servidor MCP para consultar vías, portales, cruces, barrios, distritos, geocodificación y códigos oficiales del callejero de Barcelona mediante las APIs públicas de GeoBCN, Open Data BCN, ICGC y CartoCiudad.",
+  "version": "1.0.0",
+  "website": "https://refcatastral.es/barcelona/barcelona/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/refcatastral/mcp-callejero-barcelona"
+  },
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "mcp-callejero-barcelona",
+      "version": "1.0.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "name": "mcp-callejero-barcelona",
+  "version": "1.0.0",
+  "mcpName": "io.github.refcatastral/mcp-callejero-barcelona",
+  "description": "Servidor MCP (Model Context Protocol) oficial de RefCatastral.es para consultar el callejero de Barcelona, direcciones postales, cruces, barrios, distritos, códigos INE y referencias catastrales usando APIs públicas (GeoBCN, Open Data BCN, ICGC y CartoCiudad).",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "mcp-callejero-barcelona": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "mcp",
+    "modelcontextprotocol",
+    "barcelona",
+    "callejero",
+    "carrerer",
+    "geobcn",
+    "opendata-bcn",
+    "icgc",
+    "catastro",
+    "refcatastral",
+    "geocoding",
+    "gis"
+  ],
+  "author": "RefCatastral.es <info@refcatastral.es> (https://refcatastral.es)",
+  "license": "MIT",
+  "homepage": "https://refcatastral.es/barcelona/barcelona/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/refcatastral/mcp-callejero-barcelona.git"
+  },
+  "bugs": {
+    "url": "https://github.com/refcatastral/mcp-callejero-barcelona/issues"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

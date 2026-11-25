@@ -1,0 +1,9 @@
+{
+  "$schema": "https://glama.ai/mcp/schemas/server.json",
+  "name": "mcp-callejero-barcelona",
+  "description": "Servidor MCP de RefCatastral.es para consultar el callejero oficial de Barcelona usando las APIs públicas del Ajuntament de Barcelona (GeoBCN y Open Data BCN), ICGC y CartoCiudad.",
+  "website": "https://refcatastral.es/barcelona/barcelona/",
+  "maintainers": [
+    "refcatastral"
+  ]
+}

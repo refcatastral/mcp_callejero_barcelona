@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "callejero-barcelona": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "mcp-callejero-barcelona"]
+    }
+  }
+}
